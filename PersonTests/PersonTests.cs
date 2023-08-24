@@ -67,7 +67,7 @@ namespace PersonTests
 
             // Use String interpolation to format the Salary value as a value with one decimal digit to succeed test
             //Assert
-            Assert.Equal("Salary is: € 1.275,6", SalaryText);
+            Assert.Equal("Salary is: ? 1.275,6", SalaryText);
         }
 
         [Fact]
