@@ -85,6 +85,7 @@ namespace PersonTests
             // TODO: Use an extension method IsBornAfter2000() to succeed these tests
 
             //Assert
+            Assert.Fail("Deze assert weghalen na implementatie van IsBornAfter2000()");
             //Assert.False(person1.IsBornAfter2000());
             //Assert.True(person2.IsBornAfter2000());
             //Assert.True(person3.IsBornAfter2000());
@@ -99,6 +100,7 @@ namespace PersonTests
             person1.DateOfBirth = new DateTime(1990, 1, 23);
 
             // Assert
+            Assert.Fail("Deze assert weghalen na implementatie van GetBirthDateFormatted()");
             // TODO: implement an extension method GetBirthDateFormatted() to succeed this test
             //Assert.Equal("23-01-1990", person1.GetBirthDateFormatted());
         }
@@ -115,6 +117,8 @@ namespace PersonTests
             // TODO: Implemented an extension method GetAllHobbiesWithBall() with filter to succeed this test
             //var hobbies = person1.GetAllHobbiesWithBall();
             
+            // Assert
+            Assert.Fail("Deze assert weghalen na implementatie van GetAllHobbiesWithBall()");
            // Assert.Equal(3, hobbies.Count());
            // Assert.Contains("Basketball", hobbies);
            // Assert.Contains("Baseball", hobbies);
@@ -133,6 +137,7 @@ namespace PersonTests
             string[] hobbies = null;
 
             // Assert
+            Assert.Fail("Deze assert weghalen nadat hobbies correct gevuld is");
             // Assert.Equal(3, hobbies.Count());
             // Assert.Contains("Basketball", hobbies);
             // Assert.Contains("Baseball", hobbies);
@@ -154,6 +159,7 @@ namespace PersonTests
             //var hobbiesUnion = null;
 
             // Assert
+            Assert.Fail("Deze assert weghalen nadat hobbiesUnion correct gevuld is");
             // Assert.Equal(3, hobbiesUnion.Count());
             // Assert.Contains("Basketball", hobbiesUnion);
              //Assert.Contains("Swimming", hobbiesUnion);
@@ -170,7 +176,8 @@ namespace PersonTests
 
             // TODO: Use a lambda expression to uppercase the hobbies to succeed the tests
             string[] hobbiesAltered = null;
-
+            // Assert
+            Assert.Fail("Deze assert weghalen nadat hobbiesAltered correct gevuld is");
              //Assert.Equal(2, hobbiesAltered.Count());
              //Assert.Contains("BASKETBALL", hobbiesAltered);
              //Assert.Contains("SWIMMING", hobbiesAltered);
@@ -198,7 +205,8 @@ namespace PersonTests
             var person1Ordered = orderedPersons.ElementAt(0); 
             var person2Ordered = orderedPersons.ElementAt(1);
             var person3Ordered = orderedPersons.ElementAt(2);
-
+            // Assert
+            
             Assert.Equal(2000, person1Ordered.DateOfBirth.Year);
             Assert.Equal(2003, person2Ordered.DateOfBirth.Year);
             Assert.Equal(2012, person3Ordered.DateOfBirth.Year);
@@ -245,6 +253,7 @@ namespace PersonTests
             //double average = null;
 
             // Assert
+            Assert.Fail("Deze assert weghalen als average correct gevuld is");
             //Assert.Equal(3, average);
         }
 
@@ -363,6 +372,7 @@ namespace PersonTests
             }
 
             // Assert
+            Assert.Fail("Deze assert weghalen als SetDateOfBirth geimplementeerd is");
             Assert.False(exceptionHasBeenThrown);
         }
 
