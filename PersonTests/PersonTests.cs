@@ -192,7 +192,7 @@ namespace PersonTests
             var person2 = new Person("Anne", "King");
             var person3 = new Person("Albert", "King");
 
-            person1.DateOfBirth = new DateTime(1990, 01, 23);
+            person1.DateOfBirth = new DateTime(2012, 01, 23);
             person2.DateOfBirth = new DateTime(2000, 01, 23);
             person3.DateOfBirth = new DateTime(2003, 01, 23);
 
